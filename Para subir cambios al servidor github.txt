@@ -1,0 +1,17 @@
+1) Al modificar un/unos archivo/s:
+
+	-git add . //Esto añade todos los archivos al repositorio local (no al web)
+o sino tambien
+	-git add nombreDelArchivo //Esto añade solamente el archivo indicado al repositorio local.
+
+2) Luego... se genera un commit para confirmar todos los archivos modificados agregando un mensaje que brinde una idea de lo que se modificó en el/los dichos archivo/s
+
+	-git commit -m "aqui el mensaje"
+
+3) Para enviar finalmente los archivos al repositorio online se debe tipear:
+	
+	-git push origin master
+
+Apendice A)
+	Si se quiere ir verificando el estado de la transaccion luego de cada instruccion, puede tipear el siguiente comando:
+		-git status
