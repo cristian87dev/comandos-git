@@ -1,2 +1,4 @@
 1) Para obtener los cambios desde el repositorio github.com debe tipear:
 	-git pull --rebase
+o tambien
+	-git pull origin master
